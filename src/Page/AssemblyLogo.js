@@ -9,7 +9,7 @@ import BaseUrl from '../utils/BaseUrl'
 export default function AssemblyLogo() {
     const [category1, setCategory1] = useState([])
     const [category2, setCategory2] = useState([])
-    const [staffInfo, setStaffInfo] = useState(null)
+    // const [staffInfo, setStaffInfo] = useState(null)
 
     const getAssemblyProduct = async () => {
         const response = await fetch(`${BaseUrl}/api/product/AssemblyLogo/all`, {
@@ -25,9 +25,9 @@ export default function AssemblyLogo() {
     }
 
     useEffect(() => {
-        const staff = localStorage.getItem("staffInfo")
-        const json = JSON.parse(staff)
-        setStaffInfo(json)
+        // const staff = localStorage.getItem("staffInfo")
+        // const json = JSON.parse(staff)
+        // setStaffInfo(json)
         getAssemblyProduct()
     }, [])
 
