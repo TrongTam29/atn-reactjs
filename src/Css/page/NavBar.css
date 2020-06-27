@@ -1,0 +1,16 @@
+.menu {
+    margin: 20px 70px;
+    padding: 6px 10px 8px 35px;
+    font-size: 25px;
+  }
+  
+  .abc {
+    text-align: left;
+    display: inline;
+    /* float: right; */
+  }
+
+  nav{
+    padding: 1000px;
+    background-color: rgb(158, 157, 155);
+  }

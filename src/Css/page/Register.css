@@ -1,0 +1,11 @@
+.login-container{
+    margin: 30px 800px;
+}
+h1{
+    text-align: center;
+    border-bottom: none;
+}
+.register-form{
+    margin-left: 50px;
+    margin-right: 50px;
+}

@@ -1,0 +1,10 @@
+.login-container{
+    margin: 30px 400px;
+}
+h1{
+    text-align: center;
+    border-bottom: none;
+}
+.btn-outline-success{
+    margin-left: 50px;
+}
